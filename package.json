@@ -1,0 +1,22 @@
+{
+  "name": "k86twine",
+  "version": "1.0.0",
+  "description": "Command line Twitter client",
+  "bin":{
+	  "k86twine":"./bin/twine.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssamurai97/k86Twine.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssamurai97/k86Twine/issues"
+  },
+  "homepage": "https://github.com/ssamurai97/k86Twine#readme"
+}
