@@ -1,3 +1,10 @@
 #! /usr/bin/env node
-console.log("Hello, world");
 
+const program = require('commander')
+
+const pkg = require('../package.json')
+
+program
+  .version(pkg.version)
+  .command('configure', 'configure k86twine-relate credentials')
+  .parse(process.argv)
