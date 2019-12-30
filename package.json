@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Command line Twitter client",
   "bin": {
-    "k86twine": "./bin/twine.js"
+    "k86twine": "./bin/k8twine.js"
   },
   "main": "index.js",
   "scripts": {
