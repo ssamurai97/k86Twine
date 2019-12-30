@@ -6,5 +6,5 @@ const pkg = require('../package.json')
 
 program
   .version(pkg.version)
-  .command('configure', 'configure k86twine-relate credentials')
+  .command('configure', 'configure twitter-related credentials')
   .parse(process.argv)
